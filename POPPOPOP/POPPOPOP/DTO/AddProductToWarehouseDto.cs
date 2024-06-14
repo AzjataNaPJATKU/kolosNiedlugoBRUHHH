@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace POPPOPOP.DTO;
 
-public class AddProductToMagazineDto
+public class AddProductToWarehouseDto
 {
     [Required]
     public int IdProduct { set; get; }
